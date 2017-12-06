@@ -1,0 +1,29 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "an app that lets you create items to eat and then lets you click to eat them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmacdonald1/burger.git"
+  },
+  "keywords": [
+    "burger"
+  ],
+  "author": "Melanie MacDonald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmacdonald1/burger/issues"
+  },
+  "homepage": "https://github.com/mmacdonald1/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  }
+}
