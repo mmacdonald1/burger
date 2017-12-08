@@ -1,17 +1,27 @@
+html, body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1,h2,h3{
+    font-family: 'Bungee', cursive;
+    color: #ff3366;
+}
+
+ul{
+    list-style:none;
+    text-align: center;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  width: 20%;
+  background: #ffff66;
+  text-align: center;
 }
 
-.label {
+label {
+  width:100%;
   font-weight: bold;
-}
-
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
 }
 
 .form-group {
